@@ -1,7 +1,7 @@
 ---
-# An instance of the About widget.
-# Documentation: https://wowchemy.com/docs/page-builder/
-widget: about
+# An instance of the Blank widget.
+# Documentation: https://wowchemy.com/docs/getting-started/page-builder/
+widget: blank
 
 # Activate this widget? true/false
 active: true
@@ -10,12 +10,16 @@ active: true
 headless: true
 
 # Order that this section appears on the page.
-weight: 20
+weight: 11
 
-title: Biography
+title: 
+subtitle:
 
-# Choose the user profile to display
-# This should be the username (folder name) of a profile in your `content/authors/` folder.
-# See https://wowchemy.com/docs/get-started/#introduce-yourself
-author: admin
+design:
+  columns: "1"
+
 ---
+
+# Interaction Design Patterns for Bioinformatics 
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis ex augue, auctor at volutpat convallis, pellentesque ut diam. Donec pulvinar finibus consectetur. Vivamus laoreet id tortor a venenatis. Donec vitae maximus sapien. Ut tincidunt facilisis nunc, tincidunt tincidunt odio porta a. Proin accumsan hendrerit risus sit amet tincidunt. Nullam sit amet lobortis nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Praesent pulvinar aliquet faucibus. Phasellus gravida metus et facilisis volutpat. Phasellus in metus vehicula, cursus leo sit amet, ultricies lorem. Nunc et sapien fringilla felis fermentum bibendum. Aenean nec commodo nulla. Vivamus sed tellus laoreet, aliquet sem a, volutpat elit. Vivamus accumsan scelerisque est, at sodales ligula auctor varius. Nullam id odio mi.

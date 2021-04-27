@@ -77,17 +77,18 @@ address_format: en-us
 highlight: true
 highlight_languages:
   - r
+  - python
 math: false
 diagram: false
-privacy_pack: false
+privacy_pack: true
 edit_page:
-  repo_url: ''
+  repo_url: 'https://github.com/gbnegrini/bioinformatics-idp-wowchemy'
   content_dir: ''
   repo_branch: main
   editable:
     page: false
     post: false
-    book: false
+    book: true
 show_related:
   book: true
   page: false
