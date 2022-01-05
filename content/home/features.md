@@ -18,10 +18,10 @@ subtitle:
 # - Add/remove as many `feature` blocks below as you like.
 # - For available icons, see: https://wowchemy.com/docs/page-builder/#icons
 feature:
-- description: Learn about interaction design patterns and how to use them to improve the usability of bioinformatics software
-  icon: lightbulb
+- description: Search for design patterns that can help you build your bioinformatics application
+  icon: search
   icon_pack: fas
-  name: Learn
+  name: "[Consult](patterns)"
 - description: 
   icon: 
   icon_pack: 
@@ -29,7 +29,7 @@ feature:
 - description: Easily add new patterns by submitting a Pull Request
   icon: github
   icon_pack: fab
-  name: Contribute
+  name: "[Contribute](https://github.com/gbnegrini/bioinformatics-idp)"
 
 design:
   columns: "1"

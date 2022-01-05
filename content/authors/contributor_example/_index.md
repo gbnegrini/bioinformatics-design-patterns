@@ -2,32 +2,44 @@
 # Display name
 title: Your Name
 
-# Is this the primary user of the site?
+# Don't alter
 superuser: false
-
-# Role/position/tagline
-role: 
 
 # Organizations/Affiliations to show in About widget
 organizations:
 - name:
   url:
 
-# UNCOMMENT THESE 2 LINES BELOW
+# PLEASE UNCOMMENT LINES BELOW
 #user_groups:
 #- Contributors
 
+# Fill with your links. Please comment the ones you do not want to use.
 social:
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgeCushen
-- icon: graduation-cap  # Alternatively, use `google-scholar` icon from `ai` icon pack
+- icon: globe
   icon_pack: fas
-  link: https://scholar.google.co.uk/citations?user=sIwtMXoAAAAJ
+  link: 
+
 - icon: github
   icon_pack: fab
-  link: https://github.com/gcushen
+  link: 
 
-# Highlight the author in author lists? (true/false)
-highlight_name: false
+- icon: linkedin
+  icon_pack: fab
+  link: 
+
+- icon: researchgate
+  icon_pack: ai
+  link: 
+
+- icon: google-scholar
+  icon_pack: ai
+  link: 
+
+- icon: twitter
+  icon_pack: fab
+  link: 
+
+# Don't alter
+highlight_name: true
 ---
