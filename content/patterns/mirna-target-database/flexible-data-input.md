@@ -38,7 +38,7 @@ The mRNA or miRNA data input is required to search the database for targets. To 
 
 ## Solution
 
-Allow the user to enter the data needed to search for miRNA targets in a delimited area, highlighted on the page, and with different advanced search tools. The FLEXIBLE DATA INPUT can contain a text box to enter a nucleotide sequence or allow the selection of a sequence from a list predefined by the database. The upload of sequence(s) in a FASTA file must also be supported. The advanced search must allow the user to specify parameters to narrow the search, such as species, a family of miRNAs, and validation method (RESULTS FILTER). The tool should give clear examples of how the input is formatted.
+Allow the user to enter the data needed to search for miRNA targets in a delimited area, highlighted on the page, and with different advanced search tools. The FLEXIBLE DATA INPUT can contain a text box to enter a nucleotide sequence or allow the selection of a sequence from a list predefined by the database. The upload of sequence(s) in a FASTA file must also be supported. The advanced search must allow the user to specify parameters to narrow the search, such as species, a family of miRNAs, and validation method (DATA FILTER). The tool should give clear examples of how the input is formatted.
 
 ## Rationale
 
