@@ -1,7 +1,7 @@
 ---
 type: book
 
-title: Informational elements
+title: Informational Elements
 summary: "Users need essential information to decide if the database suits their needs."
 
 # Activate this widget? true/false
@@ -38,11 +38,11 @@ Critical information needs to be available in the user interface to support the 
 
 ## Solution
 
-The INFORMATIONAL ELEMENTS are usually contained on or accessed from the tool's main page. They do not necessarily compose a single information block in the interface but present related information whose primary purpose is to inform the user about the use and status of the tool. The main page should display the current information about the number of miRNA targets supported and the last update date (STATUS AND STATISTICS). The main page is also the preferred place to display the CITATION that users must use to reference the database. The INFORMATIONAL ELEMENTS must also comprise the METHODS used to calculate the prediction score shown in the DATA PRESENTATION.
+The [**Informational Elements**]({{< relref "patterns/mirna-target-database/informational-elements" >}}) are usually contained on or accessed from the tool's main page. They do not necessarily compose a single information block in the interface but present related information whose primary purpose is to inform the user about the use and status of the tool. The main page should display the current information about the number of miRNA targets supported and the last update date ([**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}})). The main page is also the preferred place to display the [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) that users must use to reference the database. The [**Informational Elements**]({{< relref "patterns/mirna-target-database/informational-elements" >}}) must also comprise the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) used to calculate the prediction score shown in the [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}).
 
 ## Rationale
 
-INFORMATIONAL ELEMENTS should help the user quickly decide on using the database. A common problem with databases of miRNAs targets is a lack of updates (Mullany et al., 2015), so the user needs to quickly identify the STATUS AND STATISTICS of the tool. CITATION is essential so that the user correctly references what database was used to produce the results in their paper. Low interpretability of the results is one problem that affects users (Mullany et al., 2015). Thus, it is important that users can easily consult the METHODS used for target prediction.
+[**Informational Elements**]({{< relref "patterns/mirna-target-database/informational-elements" >}}) should help the user quickly decide on using the database. A common problem with databases of miRNAs targets is a lack of updates (Mullany et al., 2015), so the user needs to quickly identify the [**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) of the tool. [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) is essential so that the user correctly references what database was used to produce the results in their paper. Low interpretability of the results is one problem that affects users (Mullany et al., 2015). Thus, it is important that users can easily consult the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) used for target prediction.
 
 ## Related patterns
 
@@ -60,9 +60,9 @@ INFORMATIONAL ELEMENTS should help the user quickly decide on using the database
 ### TarBase
 
 ![](tarbase_info.png)
-- CITATION is highlighted on the main page.
-- Statistics button on the left links to a detailed STATUS AND STATISTICS page.
-- Some STATUS AND STATISTICS data are displayed on the bottom of the main page.
+- [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) is highlighted on the main page.
+- Statistics button on the left links to a detailed [**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) page.
+- Some [**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) data are displayed on the bottom of the main page.
 
 ---
 
@@ -70,8 +70,8 @@ INFORMATIONAL ELEMENTS should help the user quickly decide on using the database
 
 ![](target_scan_info.png)
 
-- The main page display information about the METHODS used to predict miRNA targets.
-- CITATION is easily visible on the bottom of the main page.
+- The main page display information about the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) used to predict miRNA targets.
+- [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) is easily visible on the bottom of the main page.
 
 ---
 
@@ -79,8 +79,8 @@ INFORMATIONAL ELEMENTS should help the user quickly decide on using the database
 
 ![](encori_info.png)
 
-- STATUS AND STATISTICS is displayed on the main page.
-- CITATION is located at the bottom.
+- [**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) is displayed on the main page.
+- [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) is located at the bottom.
 
 ---
 
@@ -88,15 +88,15 @@ INFORMATIONAL ELEMENTS should help the user quickly decide on using the database
 
 ![](mirecords_info.png)
  
- - STATUS AND STATISTICS is displayed on the left column of the page.
- - The search tab links to a page containing information about the METHODS and the CITATION.
+ - [**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) is displayed on the left column of the page.
+ - The search tab links to a page containing information about the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) and the [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}).
  
  ### miRDB
  
  ![](mirdb_info.png)
 
-- The menu on the left of the main page links to STATUS AND STATISTICS, METHODS (FAQ) and CITATION.
-- CITATION is also available at the bottom of the main page.
+- The menu on the left of the main page links to [**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}), [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) (FAQ) and [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}).
+- [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) is also available at the bottom of the main page.
 
 ## References
 

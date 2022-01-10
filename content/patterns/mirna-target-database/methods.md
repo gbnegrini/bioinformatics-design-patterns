@@ -39,12 +39,12 @@ The knowledge discovery process depends on the correct interpretation of the met
 
 ## Solution
 
-Insert a text box or a dedicated page to briefly describe the METHODS used by the database to search for miRNA targets. A more in-depth description of the methods is usually present in the tool's journal article, reinforcing the need to present the CITATION together in the INFORMATIONAL ELEMENTS. The meaning of classification scores should be available.
+Insert a text box or a dedicated page to briefly describe the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) used by the database to search for miRNA targets. A more in-depth description of the methods is usually present in the tool's journal article, reinforcing the need to present the [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) together in the [**Informational Elements**]({{< relref "patterns/mirna-target-database/informational-elements" >}}). The meaning of classification scores should be available.
 
 
 ## Rationale
 
-Low interpretability of the results is one problem that affects users (Mullany et al., 2015). Thus, it is essential that users can quickly consult the METHODS used for target prediction.
+Low interpretability of the results is one problem that affects users (Mullany et al., 2015). Thus, it is essential that users can quickly consult the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) used for target prediction.
 
 ## Related patterns
 
@@ -65,7 +65,7 @@ Low interpretability of the results is one problem that affects users (Mullany e
 ### miRDB
 
 ![](mirdb_methods.png)
-- Methods and prediction scores used are explained in a dedicated FAQ section.
+- Methods and prediction scores used are explained in a dedicated [**FAQ**](http://ui-patterns.com/patterns/frequently-asked-questions-faq) section.
 ---
 
 ### TargetScan
@@ -73,7 +73,7 @@ Low interpretability of the results is one problem that affects users (Mullany e
 ![](target_scan_methods.png)
 
 - Methods used are briefly explained at the bottom of the main page.
-- CITATION provides the source for an in-depth explanation.
+- [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) provides the source for an in-depth explanation.
 
 ---
 
@@ -81,7 +81,7 @@ Low interpretability of the results is one problem that affects users (Mullany e
 
 ![](rna22_methods.png)
 
-- The explanation of how to interpret the p-value is available in the DATA PRESENTATION.
+- The explanation of how to interpret the p-value is available in the [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}).
 
 ## References
 

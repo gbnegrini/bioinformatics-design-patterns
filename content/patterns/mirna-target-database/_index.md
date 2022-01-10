@@ -19,9 +19,6 @@ weight: 10
 
 ```mermaid
 erDiagram
-    MIRNA-TARGET-DATABASE ||--|| FLEXIBLE-DATA-INPUT : contains
-    MIRNA-TARGET-DATABASE ||--|| DATA-PRESENTATION : contains
-    MIRNA-TARGET-DATABASE ||--|| INFORMATIONAL-ELEMENTS : contains
     FLEXIBLE-DATA-INPUT ||--|| DATA-FILTER : contains
     FLEXIBLE-DATA-INPUT ||..|| INPUT-PROMPT : improves
     DATA-PRESENTATION ||--|| DATA-FILTER : contains
@@ -35,6 +32,8 @@ erDiagram
     STATUS-AND-STATISTICS ||--|| METHODS : used-with
     STATUS-AND-STATISTICS ||--|| CITATION : used-with
     METHODS ||..|| FAQ : similar
+    DATA-FILTER ||..|| LIVE-FILTER : similar
+    DATA-FILTER ||..|| FILTERING : similar
 ```
 Dashed lines indicate a design pattern from an external source.
 

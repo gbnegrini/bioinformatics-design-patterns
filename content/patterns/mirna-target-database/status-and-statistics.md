@@ -44,7 +44,7 @@ Insert a dedicated section to show the date of the last update and the relevant 
 
 ## Rationale
 
-STATUS AND STATISTICS is an essential INFORMATIONAL ELEMENT. A common problem with databases of miRNAs targets is a lack of updates (Mullany et al., 2015), so the user needs to identify the STATUS AND STATISTICS of the tool quickly.
+[**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) is an essential INFORMATIONAL ELEMENT. A common problem with databases of miRNAs targets is a lack of updates (Mullany et al., 2015), so the user needs to identify the [**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) of the tool quickly.
 
 ## Related patterns
 
@@ -62,7 +62,7 @@ STATUS AND STATISTICS is an essential INFORMATIONAL ELEMENT. A common problem wi
 ### miRDB
 
 ![](mirdb_status.png)
-- Link for STATUS AND STATISTICS in the left menu.
+- Link for [**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) in the left menu.
 - Dedicated page displays all database update details.
 ---
 
@@ -76,7 +76,7 @@ STATUS AND STATISTICS is an essential INFORMATIONAL ELEMENT. A common problem wi
 
 ![](tarbase_status.png)
 
-- Dedicated page to STATUS AND STATISTICS.
+- Dedicated page to [**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}).
 - Interactive plots allow the user to explore the data.
 
 ## References
