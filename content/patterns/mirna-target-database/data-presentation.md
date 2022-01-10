@@ -39,7 +39,7 @@ The results of the miRNA target search need to be presented to the user in a min
 
 ## Solution
 
-Present the search results in tabular format, in which each row corresponds to a miRNA-mRNA interaction pair. At least one of the columns should contain a score used by the tool for predicting the miRNA-target relationship. This score should be described in the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}). Columns with numerical values, such as the score, should allow SORT BY COLUMN. [**Data Filter**]({{< relref "patterns/mirna-target-database/data-filter" >}}) should allow the search specification by target, miRNA, or prediction tools. The [**Details**]({{< relref "patterns/mirna-target-database/details" >}}) of the miRNA-target interaction should be referenced in the [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}). Users should be able to EXPORT the results using a download button located in the [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}) area.
+Present the search results in tabular format, in which each row corresponds to a miRNA-mRNA interaction pair. At least one of the columns should contain a score used by the tool for predicting the miRNA-target relationship. This score should be described in the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}). Columns with numerical values, such as the score, should allow SORT BY COLUMN. [**Data Filter**]({{< relref "patterns/mirna-target-database/data-filter" >}}) should allow the search specification by target, miRNA, or prediction tools. The [**Details**]({{< relref "patterns/mirna-target-database/details" >}}) of the miRNA-target interaction should be referenced in the [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}). Users should be able to [**Export**](https://www.carbondesignsystem.com/community/patterns/export-pattern/) the results using a download button located in the [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}) area.
 
 ## Rationale
 
@@ -100,7 +100,7 @@ Bioinformatics tool users widely use tabular data due to the ease of working wit
 
 - miRNA-target pairs in tabular format.
 - One-click to export the results.
-- Filter box with example is provided.
+- Filter box with an example is provided.
 
 ## References
 
