@@ -38,11 +38,11 @@ The [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-pres
 
 ## Solution
 
-Use single and multiple selection menus to compose a filtering strategy. Some filtering criteria can be applied as single or multiple selection boxes in [**Flexible Data Input**]({{< relref "patterns/mirna-target-database/flexible-data-input" >}}), such as the choice of species and miRNA/family of miRNA. The [**Flexible Data Input**]({{< relref "patterns/mirna-target-database/data-filter" >}}) also acts in [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}). To facilitate exploration of the results, implement a text box to search for specific miRNA/target in a large list. For databases that aggregate results from multiple algorithms or validation methods, implement multiple selection boxes to allow filtering of results.
+Use single and multiple selection menus to compose a filtering strategy. Some filtering criteria can be applied as single or multiple selection boxes in [**Flexible Data Input**]({{< relref "patterns/mirna-target-database/flexible-data-input" >}}), such as the choice of species and miRNA/family of miRNA. The [**Flexible Data Input**]({{< relref "patterns/mirna-target-database/flexible-data-input" >}}) also acts in [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}). To facilitate exploration of the results, implement a text box to search for specific miRNA/target in a large list. For databases that aggregate results from multiple algorithms or validation methods, implement multiple selection boxes to allow filtering of results.
 
 ## Rationale
 
-Tools used for miRNA research sometimes lack flexibility (Mullany et al., 2015) and user-friendly features to improve efficiency (Akthar et al., 2015). A [**Flexible Data Input**]({{< relref "patterns/mirna-target-database/data-filter" >}}) can help users restrict their results based on specific criteria, and explore results in the [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}). This can facilitate the knowledge discovery process when users are presented with many miRNA-target pairs.
+Tools used for miRNA research sometimes lack flexibility (Mullany et al., 2015) and user-friendly features to improve efficiency (Akthar et al., 2015). A [**Flexible Data Input**]({{< relref "patterns/mirna-target-database/flexible-data-input" >}}) can help users restrict their results based on specific criteria, and explore results in the [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}). This can facilitate the knowledge discovery process when users are presented with many miRNA-target pairs.
 
 ## Related patterns
 
