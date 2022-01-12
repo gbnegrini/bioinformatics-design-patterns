@@ -26,7 +26,7 @@ authors:
 
 ## Overview
 
-MOCKUP
+![](flexible-data.png)
 
 ## Problem
 

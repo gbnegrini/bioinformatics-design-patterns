@@ -26,7 +26,7 @@ authors:
 
 ## Overview
 
-MOCKUP
+![](informational-elements.png)
 
 ## Problem
 

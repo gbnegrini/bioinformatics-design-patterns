@@ -26,7 +26,7 @@ authors:
 
 ## Overview
 
-MOCKUP
+![](data-filter.png)
 
 ## Problem
 

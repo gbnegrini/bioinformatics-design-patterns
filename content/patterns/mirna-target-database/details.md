@@ -26,7 +26,7 @@ authors:
 
 ## Overview
 
-MOCKUP
+![](details.png)
 
 ## Problem
 

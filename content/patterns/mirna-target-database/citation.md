@@ -26,7 +26,7 @@ authors:
 
 ## Overview
 
-MOCKUP
+![](citation.png)
 
 ## Problem
 
@@ -54,7 +54,7 @@ A [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) is an
 
 ### Used with
 
-- [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}})]({{< relref "patterns/mirna-target-database/methods" >}}) from Bioinformatics IDP.
+- [Methods]({{< relref "patterns/mirna-target-database/methods" >}}) from Bioinformatics IDP.
 - [Status and Statistics]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) from Bioinformatics IDP.
 
 ## Examples

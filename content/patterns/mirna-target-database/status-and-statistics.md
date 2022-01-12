@@ -26,7 +26,7 @@ authors:
 
 ## Overview
 
-MOCKUP
+![](status-and-statistics.png)
 
 ## Problem
 

@@ -27,7 +27,7 @@ authors:
 
 ## Overview
 
-MOCKUP
+![](data-presentation.png)
 
 ## Problem
 
