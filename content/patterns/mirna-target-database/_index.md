@@ -31,6 +31,7 @@ erDiagram
     INFORMATIONAL-ELEMENTS ||--|{ CITATION : contains
     STATUS-AND-STATISTICS ||--|| METHODS : used-with
     STATUS-AND-STATISTICS ||--|| CITATION : used-with
+    METHODS ||--|| CITATION : used-with
     METHODS ||..|| FAQ : similar
     DATA-FILTER ||..|| LIVE-FILTER : similar
     DATA-FILTER ||..|| FILTERING : similar

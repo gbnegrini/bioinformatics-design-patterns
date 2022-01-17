@@ -39,7 +39,7 @@ The knowledge discovery process depends on the correct interpretation of the met
 
 ## Solution
 
-Insert a text box or a dedicated page to briefly describe the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) used by the database to search for miRNA targets. A more in-depth description of the methods is usually present in the tool's journal article, reinforcing the need to present the [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) together in the [**Informational Elements**]({{< relref "patterns/mirna-target-database/informational-elements" >}}). The meaning of classification scores should be available.
+Insert a text area or a dedicated page to briefly describe the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) used by the database to search for miRNA targets. A more in-depth description of the methods is usually present in the tool's journal article, reinforcing the need to present the [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) together in the [**Informational Elements**]({{< relref "patterns/mirna-target-database/informational-elements" >}}). The meaning of classification scores should be available.
 
 
 ## Rationale
