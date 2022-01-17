@@ -55,7 +55,7 @@ Insert a dedicated section to show the date of the last update and the relevant 
 ### Used with
 
 - [Methods]({{< relref "patterns/mirna-target-database/methods" >}}) from Bioinformatics IDP.
-- [Citaion]({{< relref "patterns/mirna-target-database/citation" >}}) from Bioinformatics IDP.
+- [Citation]({{< relref "patterns/mirna-target-database/citation" >}}) from Bioinformatics IDP.
 
 ## Examples
 
