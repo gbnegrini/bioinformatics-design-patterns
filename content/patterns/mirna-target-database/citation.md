@@ -39,12 +39,12 @@ A miRNA target database is usually described in a journal article. Users must co
 
 ## Solution
 
-Indicate in the interface the full citation for the database reference article. It is common for a database to have more than one article as it is updated and improved, so provide as many [**Citations**]({{< relref "patterns/mirna-target-database/citation" >}}) as appropriate.
+Indicate in the interface the full citation for the database reference article. It is common for a database to have more than one article as it is updated and improved, so provide as many **Citations** as appropriate.
 
 
 ## Rationale
 
-A [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) is an essential [**Informational Element**]({{< relref "patterns/mirna-target-database/informational-elements" >}}). [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) is necessary so that the user correctly references what database was used to produce the results in their paper. [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) is also helpful to point the user to the articles needed to understand the tool used.
+A **Citation** is an essential [**Informational Element**]({{< relref "patterns/mirna-target-database/informational-elements" >}}). **Citation** is necessary so that the user correctly references what database was used to produce the results in their paper. **Citation** is also helpful to point the user to the articles needed to understand the tool used.
 
 ## Related patterns
 
@@ -63,6 +63,7 @@ A [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) is an
 
 ![](target_scan_citation.png)
 
+---
 ---
 
 ### ENCORI/starBase

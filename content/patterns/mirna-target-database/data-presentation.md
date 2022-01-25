@@ -39,11 +39,11 @@ The results of the miRNA target search need to be presented to the user in a min
 
 ## Solution
 
-Present the search results in tabular format, in which each row corresponds to a miRNA-mRNA interaction pair. At least one of the columns should contain a score used by the tool for predicting the miRNA-target relationship. This score should be described in the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}). Columns with numerical values, such as the score, should allow [**Sort by Column**](http://ui-patterns.com/patterns/SortByColumn). [**Data Filter**]({{< relref "patterns/mirna-target-database/data-filter" >}}) should allow the search specification by target, miRNA, or prediction tools. The [**Details**]({{< relref "patterns/mirna-target-database/details" >}}) of the miRNA-target interaction should be referenced in the [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}). Users should be able to [**Export**](https://www.carbondesignsystem.com/community/patterns/export-pattern/) the results using a download button located in the [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}) area.
+Present the search results in tabular format, in which each row corresponds to a miRNA-mRNA interaction pair. At least one of the columns should contain a score used by the tool for predicting the miRNA-target relationship. This score should be described in the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}). Columns with numerical values, such as the score, should allow [**Sort by Column**](http://ui-patterns.com/patterns/SortByColumn). [**Data Filter**]({{< relref "patterns/mirna-target-database/data-filter" >}}) should allow the search specification by target, miRNA, or prediction tools. The [**Details**]({{< relref "patterns/mirna-target-database/details" >}}) of the miRNA-target interaction should be referenced in the **Data Presentation**. Users should be able to [**Export**](https://www.carbondesignsystem.com/community/patterns/export-pattern/) the results using a download button located in the **Data Presentation** area.
 
 ## Rationale
 
-Bioinformatics tool users widely use tabular data due to the ease of working with spreadsheet software (Rideout et al., 2016). A [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}) containing a table and interactive filters gives the user the possibility to explore the data quickly. This format also favors the export of miRNA-target pairs, which can be easily imported into interaction visualization software such as Cytoscape.
+Bioinformatics tool users widely use tabular data due to the ease of working with spreadsheet software (Rideout et al., 2016). A **Data Presentation** containing a table and interactive filters gives the user the possibility to explore the data quickly. This format also favors the export of miRNA-target pairs, which can be easily imported into interaction visualization software such as Cytoscape.
 
 ## Related patterns
 
@@ -72,6 +72,7 @@ Bioinformatics tool users widely use tabular data due to the ease of working wit
 - A score column is present and the interpretation of this value is described at the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}).
 
 ---
+---
 
 ### ENCORI/starBase
 
@@ -83,6 +84,7 @@ Bioinformatics tool users widely use tabular data due to the ease of working wit
 - Columns can be sorted.
 
 ---
+---
 
 ### RNA22
 
@@ -92,6 +94,7 @@ Bioinformatics tool users widely use tabular data due to the ease of working wit
  - Columns can be sorted.
  - [**Details**]({{< relref "patterns/mirna-target-database/details" >}}) about miRNA-target interaction (heteroduplex) are provided directly at the table.
 
+---
 ---
 
 ### miRTarBase

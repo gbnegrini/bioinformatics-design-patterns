@@ -38,11 +38,11 @@ Critical information needs to be available in the user interface to support the 
 
 ## Solution
 
-The [**Informational Elements**]({{< relref "patterns/mirna-target-database/informational-elements" >}}) are usually contained on or accessed from the tool's main page. They do not necessarily compose a single information block in the interface but present related information whose primary purpose is to inform the user about the use and status of the tool. The main page should display the current information about the number of miRNA targets supported and the last update date ([**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}})). The main page is also the preferred place to display the [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) that users must use to reference the database. The [**Informational Elements**]({{< relref "patterns/mirna-target-database/informational-elements" >}}) must also comprise the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) used to calculate the prediction score shown in the [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}).
+The **Informational Elements** are usually contained on or accessed from the tool's main page. They do not necessarily compose a single information block in the interface but present related information whose primary purpose is to inform the user about the use and status of the tool. The main page should display the current information about the number of miRNA targets supported and the last update date ([**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}})). The main page is also the preferred place to display the [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) that users must use to reference the database. The **Informational Elements** must also comprise the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) used to calculate the prediction score shown in the [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}).
 
 ## Rationale
 
-[**Informational Elements**]({{< relref "patterns/mirna-target-database/informational-elements" >}}) should help the user quickly decide on using the database. A common problem with databases of miRNAs targets is a lack of updates (Mullany et al., 2015), so the user needs to quickly identify the [**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) of the tool. [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) is essential so that the user correctly references what database was used to produce the results in their paper. Low interpretability of the results is one problem that affects users (Mullany et al., 2015). Thus, it is important that users can easily consult the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) used for target prediction.
+**Informational Elements** should help the user quickly decide on using the database. A common problem with databases of miRNAs targets is a lack of updates (Mullany et al., 2015), so the user needs to quickly identify the [**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) of the tool. [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) is essential so that the user correctly references what database was used to produce the results in their paper. Low interpretability of the results is one problem that affects users (Mullany et al., 2015). Thus, it is important that users can easily consult the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) used for target prediction.
 
 ## Related patterns
 
@@ -65,6 +65,7 @@ The [**Informational Elements**]({{< relref "patterns/mirna-target-database/info
 - Some [**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) data are displayed on the bottom of the main page.
 
 ---
+---
 
 ### TargetScan
 
@@ -73,6 +74,7 @@ The [**Informational Elements**]({{< relref "patterns/mirna-target-database/info
 - The main page display information about the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) used to predict miRNA targets.
 - [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) is easily visible on the bottom of the main page.
 
+---
 ---
 
 ### ENCORI/starBase
@@ -83,6 +85,7 @@ The [**Informational Elements**]({{< relref "patterns/mirna-target-database/info
 - [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) is located at the bottom.
 
 ---
+---
 
 ### miRecords
 
@@ -90,8 +93,11 @@ The [**Informational Elements**]({{< relref "patterns/mirna-target-database/info
  
  - [**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) is displayed on the left column of the page.
  - The search tab links to a page containing information about the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) and the [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}).
- 
- ### miRDB
+
+---
+---
+
+### miRDB
  
  ![](mirdb_info.png)
 

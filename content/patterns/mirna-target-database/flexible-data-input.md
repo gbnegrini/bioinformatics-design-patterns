@@ -38,11 +38,11 @@ The mRNA or miRNA data input is required to search the database for targets. To 
 
 ## Solution
 
-Allow the user to enter the data needed to search for miRNA targets in a delimited area, highlighted on the page, and with different advanced search tools. The [**Flexible Data Input**]({{< relref "patterns/mirna-target-database/flexible-data-input" >}}) can contain a text box to enter a nucleotide sequence or allow the selection of a sequence from a list predefined by the database. The upload of sequence(s) in a FASTA file must also be supported. The advanced search must allow the user to specify parameters to narrow the search, such as species, a family of miRNAs, and validation method ([**Data Filter**]({{< relref "patterns/mirna-target-database/data-filter" >}})). The tool should give clear examples of how the input is formatted.
+Allow the user to enter the data needed to search for miRNA targets in a delimited area, highlighted on the page, and with different advanced search tools. The **Flexible Data Input** can contain a text box to enter a nucleotide sequence or allow the selection of a sequence from a list predefined by the database. The upload of sequence(s) in a FASTA file must also be supported. The advanced search must allow the user to specify parameters to narrow the search, such as species, a family of miRNAs, and validation method ([**Data Filter**]({{< relref "patterns/mirna-target-database/data-filter" >}})). The tool should give clear examples of how the input is formatted.
 
 ## Rationale
 
-The starting point of a search tool is data input. Data input should therefore occupy a prominent place in the interface. The target search may start with the target mRNA sequence or the miRNA, so a [**Flexible Data Input**]({{< relref "patterns/mirna-target-database/flexible-data-input" >}}) must be available to the user. Lack of flexibility and nomenclature problems are common in miRNA databases (Mullany et al., 2015), as is the difficulty of entering more than one input sequence at a time (Jung et al., 2015). [**Flexible Data Input**]({{< relref "patterns/mirna-target-database/flexible-data-input" >}}) allows users to quickly enter textual data, upload their FASTA sequences, select targets from a list predefined by the tool, and specify advanced filters to narrow the search results.
+The starting point of a search tool is data input. Data input should therefore occupy a prominent place in the interface. The target search may start with the target mRNA sequence or the miRNA, so a **Flexible Data Input** must be available to the user. Lack of flexibility and nomenclature problems are common in miRNA databases (Mullany et al., 2015), as is the difficulty of entering more than one input sequence at a time (Jung et al., 2015). **Flexible Data Input** allows users to quickly enter textual data, upload their FASTA sequences, select targets from a list predefined by the tool, and specify advanced filters to narrow the search results.
 
 ## Related patterns
 
@@ -65,6 +65,7 @@ The starting point of a search tool is data input. Data input should therefore o
 - [**Data Filter**]({{< relref "patterns/mirna-target-database/data-filter" >}}) allows you to specify the species and nomenclature.
 
 ---
+---
 
 ### miRWalk
 
@@ -74,6 +75,7 @@ The starting point of a search tool is data input. Data input should therefore o
 - Allows the user to enter a custom list.
 - Clear examples of the data entry pattern.
 
+---
 ---
 
 ### RNA22

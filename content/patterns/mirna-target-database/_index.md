@@ -29,10 +29,14 @@ erDiagram
     INFORMATIONAL-ELEMENTS ||--|| STATUS-AND-STATISTICS : contains
     INFORMATIONAL-ELEMENTS ||--|| METHODS : contains
     INFORMATIONAL-ELEMENTS ||--|{ CITATION : contains
+    INFORMATIONAL-ELEMENTS ||--|| CONTACT : contains
     STATUS-AND-STATISTICS ||--|| METHODS : used-with
     STATUS-AND-STATISTICS ||--|| CITATION : used-with
     METHODS ||--|| CITATION : used-with
     METHODS ||..|| FAQ : similar
+    CONTACT ||--|| CITATION : used-with
+    CONTACT ||--|| STATUS-AND-STATISTICS : used-with
+    CONTACT ||--|| METHODS : used-with
     DATA-FILTER ||..|| LIVE-FILTER : similar
     DATA-FILTER ||..|| FILTERING : similar
 ```

@@ -34,11 +34,11 @@ Users need to specify filtering criteria for miRNA target search results.
 
 ## Context
 
-The [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}) of the most relevant results depends on the definition of search criteria.
+A query in a miRNA database can result in an excessive number of results. The visualization of the most relevant results depends on the definition of search criteria.
 
 ## Solution
 
-Use single and multiple selection menus to compose a filtering strategy. Some filtering criteria can be applied as single or multiple selection boxes in [**Flexible Data Input**]({{< relref "patterns/mirna-target-database/flexible-data-input" >}}), such as the choice of species and miRNA/family of miRNA. The [**Flexible Data Input**]({{< relref "patterns/mirna-target-database/flexible-data-input" >}}) also acts in [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}). To facilitate exploration of the results, implement a text box to search for specific miRNA/target in a large list. For databases that aggregate results from multiple algorithms or validation methods, implement multiple selection boxes to allow filtering of results.
+Use single and multiple selection menus to compose a filtering strategy. Some filtering criteria can be applied as single or multiple selection boxes in [**Flexible Data Input**]({{< relref "patterns/mirna-target-database/flexible-data-input" >}}), such as the choice of species and miRNA/family of miRNA. The **Data Filter** also acts in [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}). To facilitate exploration of the results, implement a text box to search for specific miRNA/target in a large list. For databases that aggregate results from multiple algorithms or validation methods, implement multiple selection boxes to allow filtering of results.
 
 ## Rationale
 
@@ -67,6 +67,7 @@ Tools used for miRNA research sometimes lack flexibility (Mullany et al., 2015) 
 - Search box to filter for miRNA name.
 
 ---
+---
 
  ### miRTarBase
  
@@ -74,12 +75,16 @@ Tools used for miRNA research sometimes lack flexibility (Mullany et al., 2015) 
 
 - Search box to filter for miRNA and target in a 21156 pages result.
 
+---
+---
+
 ### TarBase
 
 ![](tarbase_data_filter.png)
 
 - Criteria to filter the results can be set in the left menu of the [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}) interface.
 
+---
 ---
 
 ### TargetScan

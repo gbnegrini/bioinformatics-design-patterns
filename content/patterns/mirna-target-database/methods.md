@@ -66,6 +66,8 @@ Low interpretability of the results is one problem that affects users (Mullany e
 
 ![](mirdb_methods.png)
 - Methods and prediction scores used are explained in a dedicated [**FAQ**](http://ui-patterns.com/patterns/frequently-asked-questions-faq) section.
+
+---
 ---
 
 ### TargetScan
@@ -75,6 +77,7 @@ Low interpretability of the results is one problem that affects users (Mullany e
 - Methods used are briefly explained at the bottom of the main page.
 - [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) provides the source for an in-depth explanation.
 
+---
 ---
 
 ### RNA22
