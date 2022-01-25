@@ -5,6 +5,9 @@ title: Your Name
 # Don't alter
 superuser: false
 
+# Role/position/tagline
+role:
+
 # Organizations/Affiliations to show in About widget
 organizations:
 - name:

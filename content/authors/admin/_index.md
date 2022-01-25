@@ -6,11 +6,11 @@ title: Guilherme Bauer Negrini
 superuser: true
 
 # Role/position/tagline
-role: PhD candidate at UFRGS
+role: PhD candidate
 
 # Organizations/Affiliations to show in About widget
 organizations:
-- name: Universidade Federal do Rio Grande do Sul
+- name: Universidade Federal do Rio Grande do Sul (UFRGS)
   url: 
 
 user_groups:
@@ -41,9 +41,9 @@ social:
   icon_pack: ai
   link: https://scholar.google.com.br/citations?user=cY0LJkQAAAAJ
 
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/gbnegrini
+# - icon: twitter
+#   icon_pack: fab
+#   link:
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
