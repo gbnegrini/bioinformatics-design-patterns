@@ -19,7 +19,7 @@ cta:
   label: Check the patterns
 cta_alt:
   label: Submit a pattern
-  url: 'contributors'
+  url: 'https://github.com/gbnegrini/bioinformatics-design-patterns'
 
 #design:
 #  background:
