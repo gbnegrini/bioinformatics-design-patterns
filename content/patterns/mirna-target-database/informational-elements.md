@@ -38,11 +38,11 @@ Critical information needs to be available in the user interface to support the 
 
 ## Solution
 
-The **Informational Elements** are usually contained on or accessed from the tool's main page. They do not necessarily compose a single information block in the interface but present related information whose primary purpose is to inform the user about the use and status of the tool. The main page should display the current information about the number of miRNA targets supported and the last update date ([**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}})). The main page is also the preferred place to display the [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) that users must use to reference the database. The **Informational Elements** must also comprise the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) used to calculate the prediction score shown in the [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}).
+The **Informational Elements** are usually contained on or accessed from the tool's main page. They do not necessarily compose a single information block in the interface but present related information whose primary purpose is to inform the user about the use and status of the tool. The main page should display the current information about the number of miRNA targets supported and the last update date ([**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}})). The main page is also the preferred place to display the [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) that users must use to reference the database. The **Informational Elements** must also comprise the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) used to calculate the prediction score shown in the [**Data Presentation**]({{< relref "patterns/mirna-target-database/data-presentation" >}}). A [**Contact**]({{< relref "patterns/mirna-target-database/contact" >}}) information should also be displayed to enable users to reach out for questions and suggestions.
 
 ## Rationale
 
-**Informational Elements** should help the user quickly decide on using the database. A common problem with databases of miRNAs targets is a lack of updates (Mullany et al., 2015), so the user needs to quickly identify the [**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) of the tool. [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) is essential so that the user correctly references what database was used to produce the results in their paper. Low interpretability of the results is one problem that affects users (Mullany et al., 2015). Thus, it is important that users can easily consult the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) used for target prediction.
+**Informational Elements** should help the user quickly decide on using the database. A common problem with databases of miRNAs targets is a lack of updates (Mullany et al., 2015), so the user needs to quickly identify the [**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) of the tool. [**Citation**]({{< relref "patterns/mirna-target-database/citation" >}}) is essential so that the user correctly references what database was used to produce the results in their paper. Low interpretability of the results is one problem that affects users (Mullany et al., 2015). Thus, it is important that users can easily consult the [**Methods**]({{< relref "patterns/mirna-target-database/methods" >}}) used for target prediction. Additionally, **Contact** can enable users to keep the database [**Status and Statistics**]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) up to date by submitting suggestions or updates.
 
 ## Related patterns
 
@@ -53,6 +53,8 @@ The **Informational Elements** are usually contained on or accessed from the too
 - [Methods]({{< relref "patterns/mirna-target-database/methods" >}}) from Bioinformatics IDP.
 
 - [Citation]({{< relref "patterns/mirna-target-database/citation" >}}) from Bioinformatics IDP.
+
+- [Contact]({{< relref "patterns/mirna-target-database/contact" >}}) from Bioinformatics IDP.
 
 
 ## Examples

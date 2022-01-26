@@ -56,6 +56,7 @@ Low interpretability of the results is one problem that affects users (Mullany e
 
 - [Status and Statistics]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) from Bioinformatics IDP.
 - [Citation]({{< relref "patterns/mirna-target-database/citation" >}}) from Bioinformatics IDP.
+- [Contact]({{< relref "patterns/mirna-target-database/contact" >}}) from Bioinformatics IDP.
 
 ### Similar
 - [FAQ](http://ui-patterns.com/patterns/frequently-asked-questions-faq) from UI Patterns.

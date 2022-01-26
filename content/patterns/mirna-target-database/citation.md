@@ -56,7 +56,8 @@ A **Citation** is an essential [**Informational Element**]({{< relref "patterns/
 
 - [Methods]({{< relref "patterns/mirna-target-database/methods" >}}) from Bioinformatics IDP.
 - [Status and Statistics]({{< relref "patterns/mirna-target-database/status-and-statistics" >}}) from Bioinformatics IDP.
-
+- [Contact]({{< relref "patterns/mirna-target-database/contact" >}}) from Bioinformatics IDP.
+  
 ## Examples
 
 ### TargetScan
