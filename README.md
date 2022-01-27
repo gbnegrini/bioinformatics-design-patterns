@@ -1,6 +1,6 @@
 ![](assets/media/icon.png)
 
-# [Interaction Design Patters for Bioinformatics](https://bioinformaticspatterns.com/)
+# [Interaction Design Patterns for Bioinformatics](https://bioinformaticspatterns.com/)
 
 Design patterns describe a repeatable solution to a commonly-occurring usability problem.
 
