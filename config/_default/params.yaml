@@ -82,13 +82,13 @@ math: false
 diagram: true
 privacy_pack: true
 edit_page:
-  repo_url: 'https://github.com/gbnegrini/bioinformatics-idp'
+  repo_url: 'https://github.com/gbnegrini/bioinformatics-design-patterns'
   content_dir: ''
   repo_branch: main
   editable:
     page: false
     post: false
-    book: true
+    book: false
 show_related:
   book: false
   page: false
