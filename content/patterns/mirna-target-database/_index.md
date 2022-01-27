@@ -13,6 +13,7 @@ type: book  # Do not modify.
 # - name: Declare this menu item as a parent with ID `name`.
 # - weight: Position of link in menu.
 weight: 10
+
 ---
 
 ## Pattern language overview
