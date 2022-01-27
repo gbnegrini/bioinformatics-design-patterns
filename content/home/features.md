@@ -29,7 +29,7 @@ feature:
 - description: Easily add new patterns by submitting a Pull Request
   icon: github
   icon_pack: fab
-  name: "[Contribute](https://github.com/gbnegrini/bioinformatics-design-patterns)"
+  name: "[Contribute](https://github.com/gbnegrini/bioinformatics-design-patterns/tree/master/.github/CONTRIBUTING.md)"
 
 design:
   columns: "1"
