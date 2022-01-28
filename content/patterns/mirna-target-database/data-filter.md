@@ -50,7 +50,7 @@ Tools used for miRNA research sometimes lack flexibility (Mullany et al., 2015) 
 
 - [Flexible Data Input]({{< relref "patterns/mirna-target-database/flexible-data-input" >}}) from Bioinformatics IDP.
 
-- [Data Presentation]({{< relref "patterns/mirna-target-database/details" >}}) from Bioinformatics IDP.
+- [Data Presentation]({{< relref "patterns/mirna-target-database/data-presentation" >}}) from Bioinformatics IDP.
 
 ### Similar
 
