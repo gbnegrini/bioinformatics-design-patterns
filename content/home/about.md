@@ -17,9 +17,7 @@ weight: 11
 cta:
   url: 'patterns'
   label: Check the patterns
-cta_alt:
-  label: Submit a pattern
-  url: 'https://github.com/gbnegrini/bioinformatics-design-patterns'
+
 
 #design:
 #  background:
